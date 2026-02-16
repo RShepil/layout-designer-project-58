@@ -1,0 +1,25 @@
+{
+  "name": "layout-designer-project-58",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/RShepil/layout-designer-project-58/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RShepil/layout-designer-project-58/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RShepil/layout-designer-project-58.git"
+  },
+  "author": "Ruslan Shepil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RShepil/layout-designer-project-58/issues"
+  },
+  "homepage": "https://github.com/RShepil/layout-designer-project-58#readme",
+  "devDependencies": {
+    "@eslint/css": "^0.14.1",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0"
+  }
+}
