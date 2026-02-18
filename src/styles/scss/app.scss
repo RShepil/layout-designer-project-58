@@ -32,10 +32,13 @@ h3 {
 }
 
 section {
-  max-width: 1110px;
-  margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.row {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 .bg {
@@ -73,6 +76,8 @@ section {
 
 .header__wrapper {
   position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .header__title {
@@ -150,4 +155,65 @@ section {
   width: 919px;
   height: 517px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.navigation {
+  padding-top: 200px;
+  background-color: $main_dark;
+}
+
+.navigation__title {
+  font-size: 52px;
+  color: $white;
+}
+
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  > * {
+    flex: 1 0 calc(33.33% - 30px);
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.navigation__item {
+  padding: 24px;
+  background-color: $light;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background-color: $main;
+
+    > * {
+      color: $white;
+    }
+  }
+}
+
+.navigation__item-number {
+  font-family: "Neucha", cursive;
+  margin-bottom: 40px;
+  font-size: 64px;
+  line-height: 1em;
+  color: $main_dark;
+}
+
+.navigation__item-title {
+  font-family: "Neucha", cursive;
+  font-size: 34px;
+  line-height: 1.2em;
+  color: $main;
+}
+
+.navigation__item-description {
+  margin-top: 16px;
+  line-height: 25.6px;
+  color: $dark;
 }

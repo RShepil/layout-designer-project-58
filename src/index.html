@@ -18,9 +18,9 @@
   </head>
   <body>
     <header class="header bg">
-      <section class="header__wrapper">
+      <div class="header__wrapper row">
         <h1 class="header__title">
-          <span class="header__title-accent accent">
+          <span class="accent">
             Когнитивные<br />
             искажения
           </span>
@@ -51,28 +51,88 @@
                 нейтрализовать.
               </p>
             </div>
-            <a href="#list" class="header__button">подробнее</a>
+            <a href="#navigation" class="header__button">подробнее</a>
           </div>
         </div>
-      </section>
+      </div>
     </header>
     <main>
       <section id="preview-image" class="video-block">
-        <h2 class="vb__title">
-          Что же это такое,
-          <br />
-          <span class="vb__title-accent accent">когнитивные искажения?</span>
-        </h2>
-        <p class="vb__subtitle">
-          Что такое когнитивные искажения. Petrovna Channel
-        </p>
-        <a
-          class="vb__link"
-          href="https://youtu.be/jie9AizBqss?feature=shared"
-          target="_blank"
-        >
-          <img class="vb__image" src="images/preview.png" alt="Видео-превью" />
-        </a>
+        <div class="row">
+          <h2 class="vb__title">
+            Что же это такое,
+            <br />
+            <span class="accent">когнитивные искажения?</span>
+          </h2>
+          <p class="vb__subtitle">
+            Что такое когнитивные искажения. Petrovna Channel
+          </p>
+          <a
+            class="vb__link"
+            href="https://youtu.be/jie9AizBqss?feature=shared"
+            target="_blank"
+          >
+            <img
+              class="vb__image"
+              src="images/preview.png"
+              alt="Видео-превью"
+            />
+          </a>
+        </div>
+      </section>
+      <section id="navigation" class="navigation">
+        <div class="row">
+          <div class="navigation__list">
+            <h2 class="navigation__title">
+              <span class="accent">5 когнитивных искажений</span><br />
+              о существовании которых стоит помнить
+            </h2>
+            <a href="#" class="navigation__item">
+              <div class="navigation__item-number">1</div>
+              <div class="navigation__item-title">Эффект ИКЕА</div>
+              <div class="navigation__item-description">
+                Вы переоцениваете собственные решения, и, как следствие,
+                недооцениваете решения других.
+              </div>
+            </a>
+            <a href="#" class="navigation__item">
+              <div class="navigation__item-number">2</div>
+              <div class="navigation__item-title">
+                Преждевременная оптимизация
+              </div>
+              <div class="navigation__item-description">
+                Вы оптимизируете что-то задолго до того, как в этом появляется
+                необходимость.
+              </div>
+            </a>
+            <a href="#" class="navigation__item">
+              <div class="navigation__item-number">3</div>
+              <div class="navigation__item-title">Искажение новизны</div>
+              <div class="navigation__item-description">
+                Вы даёте более высокую оценку тем событиям, которые произошли
+                недавно, и недооцениваете более старые.
+              </div>
+            </a>
+            <a href="#" class="navigation__item">
+              <div class="navigation__item-number">4</div>
+              <div class="navigation__item-title">
+                Гиперболическое обесценивание
+              </div>
+              <div class="navigation__item-description">
+                Вы гонитесь за немедленной маленькой выгодой и игнорируете более
+                крупную, недоступную сейчас, но доступную в будущем.
+              </div>
+            </a>
+            <a href="#" class="navigation__item">
+              <div class="navigation__item-number">5</div>
+              <div class="navigation__item-title">Ошибка планирования</div>
+              <div class="navigation__item-description">
+                Неправильно рассчитывать время необходимое для завершения
+                задачи.
+              </div>
+            </a>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
