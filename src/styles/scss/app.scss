@@ -218,50 +218,90 @@ h3 {
   color: $dark;
 }
 
-.ikea-effect {
-  background-color: $light;
-}
-
-.ie__image-wrapper {
-  background-color: $white;
-  box-shadow: 0 16px 32px 0 #00000026;
+.ie__image-wrapper,
+.po__image-wrapper {
   z-index: 1;
 }
 
-.ie__subtitle {
+.ie__image,
+.po__image {
+  background-color: $white;
+  box-shadow: 0 16px 32px 0 #00000026;
+}
+
+.ie__subtitle,
+.po__subtitle {
   font-family: "Neucha", cursive;
   font-size: 24px;
   line-height: 29px;
-  color: $dark_translucent;
 }
 
-.ie__description {
+.ie__description,
+.po__description {
   font-family: "Neucha", cursive;
   margin-top: 30px;
   font-size: 34px;
   line-height: 41px;
 }
 
-.ie__bottom {
+.ie__bottom,
+.po__bottom {
   margin-top: 98px;
 }
 
-.ie__bottom-header {
+.ie__bottom-header,
+.po__bottom-header {
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   padding: 5px 10px;
   font-size: 14px;
   line-height: 16px;
-  color: $white;
-  background-color: $brown;
   text-transform: uppercase;
 }
 
-.ie__text-wrapper {
+.ie__text-wrapper,
+.po__text-wrapper {
   margin-top: 20px;
 }
 
-.ie__text {
+.ie__text,
+.po__text {
   line-height: 26px;
+}
+
+.ikea-effect {
+  background-color: $light;
+}
+
+.ie__subtitle {
+  color: $dark_translucent;
+}
+
+.ie__bottom-header {
+  color: $white;
+  background-color: $brown;
+}
+
+.premature-optimization {
+  background-color: $brown;
+}
+
+.po__title,
+.po__description,
+.po__text {
+  color: $white;
+}
+
+.po__text {
+  line-height: 25px;
+}
+
+.po__subtitle {
+  color: $white_translucent;
+}
+
+.po__bottom-header {
+  color: $brown;
+  background-color: $white;
 }
