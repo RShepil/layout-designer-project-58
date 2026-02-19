@@ -31,14 +31,11 @@ h3 {
   font-size: 34px;
 }
 
-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .row {
   max-width: 1110px;
   margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .bg {
@@ -76,8 +73,6 @@ section {
 
 .header__wrapper {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .header__title {
@@ -130,7 +125,9 @@ section {
 }
 
 .video-block {
-  padding-bottom: 0;
+  .row {
+    padding-bottom: 0;
+  }
 }
 
 .vb__title {
@@ -158,8 +155,11 @@ section {
 }
 
 .navigation {
-  padding-top: 200px;
   background-color: $main_dark;
+
+  .row {
+    padding-top: 200px;
+  }
 }
 
 .navigation__title {
@@ -216,4 +216,51 @@ section {
   margin-top: 16px;
   line-height: 25.6px;
   color: $dark;
+}
+
+.ikea-effect {
+  background-color: $light;
+}
+
+.ie__image-wrapper {
+  background-color: $white;
+  box-shadow: 0 16px 32px 0 #00000026;
+  z-index: 1;
+}
+
+.ie__subtitle {
+  font-family: "Neucha", cursive;
+  font-size: 24px;
+  line-height: 29px;
+  color: $dark_translucent;
+}
+
+.ie__description {
+  font-family: "Neucha", cursive;
+  margin-top: 30px;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.ie__bottom {
+  margin-top: 98px;
+}
+
+.ie__bottom-header {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 16px;
+  color: $white;
+  background-color: $brown;
+  text-transform: uppercase;
+}
+
+.ie__text-wrapper {
+  margin-top: 20px;
+}
+
+.ie__text {
+  line-height: 26px;
 }
