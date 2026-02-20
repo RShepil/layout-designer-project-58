@@ -304,6 +304,49 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="row">
+        <div class="footer__subscription">
+          <h2 class="footer__title">
+            Хотите узнать больше?<br />
+            Подпишитесь на обновления
+          </h2>
+          <form class="footer__form" action="#" method="POST">
+            <label class="footer__input-label" for="email">
+              Электронная почта
+            </label>
+            <div class="footer__input-wrapper">
+              <input
+                class="footer__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Ваша электронная почта"
+                required
+              />
+              <button class="footer__button" type="submit"></button>
+            </div>
+            <p class="footer__form-text">
+              Подписываясь, вы принимаете
+              <a href="#" class="footer__form-link">правила сервиса</a>
+            </p>
+          </form>
+        </div>
+        <p class="footer__copyright">© 2026 Руслан Шепиль</p>
+        <p class="footer__article">
+          По материалам статьи
+          <a
+            href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b"
+            class="footer__article-link"
+            target="_blank"
+          >
+            Yash Ranadive Cognitive Biases in Programming
+          </a>
+        </p>
+        <a href="https://ru.hexlet.io/" class="footer__hexlet" target="_blank">
+          Курсы программирования Hexlet
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
