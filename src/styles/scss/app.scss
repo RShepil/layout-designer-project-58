@@ -221,14 +221,16 @@ h3 {
 .ie__image-wrapper,
 .po__image-wrapper,
 .don__image-wrapper,
-.hd__image-wrapper {
+.hd__image-wrapper,
+.eip__image-wrapper {
   z-index: 1;
 }
 
 .ie__image,
 .po__image,
 .don__image,
-.hd__image {
+.hd__image,
+.eip__image {
   vertical-align: middle;
   background-color: $white;
   box-shadow: 0 16px 32px 0 #00000026;
@@ -237,7 +239,8 @@ h3 {
 .ie__subtitle,
 .po__subtitle,
 .don__subtitle,
-.hd__subtitle {
+.hd__subtitle,
+.eip__subtitle {
   font-family: "Neucha", cursive;
   font-size: 24px;
   line-height: 29px;
@@ -246,7 +249,8 @@ h3 {
 .ie__description,
 .po__description,
 .don__description,
-.hd__description {
+.hd__description,
+.eip__description {
   font-family: "Neucha", cursive;
   margin-top: 30px;
   font-size: 34px;
@@ -256,14 +260,16 @@ h3 {
 .ie__bottom,
 .po__bottom,
 .don__bottom,
-.hd__bottom {
+.hd__bottom,
+.eip__bottom {
   margin-top: 100px;
 }
 
 .ie__bottom-header,
 .po__bottom-header,
 .don__bottom-header,
-.hd__bottom-header {
+.hd__bottom-header,
+.eip__bottom-header {
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -276,19 +282,22 @@ h3 {
 .ie__text-wrapper,
 .po__text-wrapper,
 .don__text-wrapper,
-.hd__text-wrapper {
+.hd__text-wrapper,
+.eip__text-wrapper {
   margin-top: 20px;
 }
 
 .ie__text,
 .po__text,
 .don__text,
-.hd__text {
+.hd__text,
+.eip__text {
   line-height: 1.6em;
 }
 
 .ikea-effect,
-.distortion-of-novelty {
+.distortion-of-novelty,
+.errors-in-planning {
   background-color: $light;
 }
 
@@ -298,7 +307,8 @@ h3 {
 }
 
 .ie__bottom-header,
-.don__bottom-header {
+.don__bottom-header,
+.eip__bottom-header {
   color: $white;
   background-color: $brown;
 }
@@ -331,4 +341,12 @@ h3 {
 .hd__bottom-header {
   color: $brown;
   background-color: $white;
+}
+
+.eip__text-wrapper {
+  > div {
+    .eip__text {
+      margin-bottom: 16px;
+    }
+  }
 }
