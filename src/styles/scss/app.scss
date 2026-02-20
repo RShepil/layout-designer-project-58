@@ -89,7 +89,7 @@ h3 {
 }
 
 .header__grid {
-  margin-top: 199px;
+  margin-top: 202px;
 }
 
 .header__text-wrapper {
@@ -101,7 +101,7 @@ h3 {
 }
 
 .header__text {
-  line-height: 26px;
+  line-height: 1.6em;
 }
 
 .header__button {
@@ -137,7 +137,7 @@ h3 {
 .vb__subtitle {
   text-align: center;
   margin-top: 30px;
-  line-height: 26px;
+  line-height: 1.6em;
   color: #212529;
 }
 
@@ -214,30 +214,35 @@ h3 {
 
 .navigation__item-description {
   margin-top: 16px;
-  line-height: 25.6px;
+  line-height: 1.6em;
   color: $dark;
 }
 
 .ie__image-wrapper,
-.po__image-wrapper {
+.po__image-wrapper,
+.don__image-wrapper {
   z-index: 1;
 }
 
 .ie__image,
-.po__image {
+.po__image,
+.don__image {
+  vertical-align: middle;
   background-color: $white;
   box-shadow: 0 16px 32px 0 #00000026;
 }
 
 .ie__subtitle,
-.po__subtitle {
+.po__subtitle,
+.don__subtitle {
   font-family: "Neucha", cursive;
   font-size: 24px;
   line-height: 29px;
 }
 
 .ie__description,
-.po__description {
+.po__description,
+.don__description {
   font-family: "Neucha", cursive;
   margin-top: 30px;
   font-size: 34px;
@@ -245,40 +250,47 @@ h3 {
 }
 
 .ie__bottom,
-.po__bottom {
-  margin-top: 98px;
+.po__bottom,
+.don__bottom {
+  margin-top: 100px;
 }
 
 .ie__bottom-header,
-.po__bottom-header {
+.po__bottom-header,
+.don__bottom-header {
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   padding: 5px 10px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2em;
   text-transform: uppercase;
 }
 
 .ie__text-wrapper,
-.po__text-wrapper {
+.po__text-wrapper,
+.don__text-wrapper {
   margin-top: 20px;
 }
 
 .ie__text,
-.po__text {
-  line-height: 26px;
+.po__text,
+.don__text {
+  line-height: 1.6em;
 }
 
-.ikea-effect {
+.ikea-effect,
+.distortion-of-novelty {
   background-color: $light;
 }
 
-.ie__subtitle {
+.ie__subtitle,
+.don__subtitle {
   color: $dark_translucent;
 }
 
-.ie__bottom-header {
+.ie__bottom-header,
+.don__bottom-header {
   color: $white;
   background-color: $brown;
 }
@@ -294,7 +306,7 @@ h3 {
 }
 
 .po__text {
-  line-height: 25px;
+  line-height: 1.6em;
 }
 
 .po__subtitle {
