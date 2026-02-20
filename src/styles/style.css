@@ -115,6 +115,10 @@ h3 {
   background-color: #ea7600;
 }
 
+.video-block .row {
+  padding-bottom: 0;
+}
+
 .vb__title {
   text-align: center;
 }
@@ -130,7 +134,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: -200px;
+  margin-bottom: -100px;
 }
 
 .vb__image {
@@ -142,6 +146,9 @@ h3 {
 .navigation {
   background-color: #42413c;
 }
+.navigation .row {
+  padding-top: 200px;
+}
 
 .navigation__title {
   font-size: 52px;
@@ -151,7 +158,6 @@ h3 {
 .navigation__list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 100px;
   row-gap: 20px;
   margin-left: -15px;
   margin-right: -15px;
