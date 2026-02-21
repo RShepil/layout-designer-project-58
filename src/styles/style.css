@@ -18,11 +18,13 @@ h3 {
 }
 
 h1 {
+  color: #fe8a02;
   font-size: 72px;
 }
 
 h2 {
   font-size: 60px;
+  color: #fe8a02;
 }
 
 h3 {
@@ -60,7 +62,7 @@ h3 {
 }
 
 .accent {
-  color: #fe8a02;
+  color: #2a2626;
 }
 
 .header {
@@ -151,6 +153,8 @@ h3 {
 
 .navigation__title {
   font-size: 52px;
+}
+.navigation__title .accent {
   color: #fff;
 }
 
