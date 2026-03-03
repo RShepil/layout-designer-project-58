@@ -394,7 +394,6 @@ h3 {
   font-size: 13px;
   line-height: 1.6em;
   color: #757575;
-  opacity: 0.2;
 }
 
 .footer__button {
@@ -450,7 +449,6 @@ h3 {
   color: #000000;
   font-size: 14px;
   line-height: 1.6em;
-  letter-spacing: 0.25px;
 }
 
 .footer__article-link {
