@@ -71,6 +71,10 @@ h3 {
 
 .header {
   background-color: $light;
+
+  .row {
+    padding-top: 0;
+  }
 }
 
 .header__wrapper {
@@ -79,6 +83,7 @@ h3 {
 
 .header__title {
   position: relative;
+  padding-top: 100px;
   z-index: 1;
 }
 
