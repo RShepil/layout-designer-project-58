@@ -307,6 +307,14 @@ h3 {
   background-color: #b09a81;
 }
 
+.premature-optimization p {
+  margin-bottom: 16px;
+}
+.premature-optimization .po__subtitle,
+.premature-optimization .po__text {
+  margin-bottom: 0;
+}
+
 .po__title,
 .po__description,
 .po__text,
@@ -345,7 +353,7 @@ h3 {
 .footer__subscription {
   display: flex;
   column-gap: 122px;
-  padding: 38px 55px 43px;
+  padding: 38px 55px 44px;
   background-color: #42413c;
 }
 
@@ -430,7 +438,7 @@ h3 {
 
 .footer__copyright {
   text-align: center;
-  margin-top: 77px;
+  margin-top: 76px;
   font-size: 14px;
   line-height: 1.6em;
   color: #000000;
