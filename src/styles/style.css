@@ -67,14 +67,11 @@ h3 {
 
 .header {
   background-color: #f5f4f0;
+  min-height: 100px;
 }
 
 .header__wrapper {
   position: relative;
-}
-
-.header__top {
-  min-height: 258px;
 }
 
 .header__title {
