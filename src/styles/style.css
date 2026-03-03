@@ -72,6 +72,7 @@ h3 {
 
 .header__wrapper {
   position: relative;
+  min-height: 100px;
 }
 
 .header__title {
