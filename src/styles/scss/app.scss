@@ -71,19 +71,18 @@ h3 {
 
 .header {
   background-color: $light;
-
-  .row {
-    padding-top: 0;
-  }
 }
 
 .header__wrapper {
   position: relative;
 }
 
+.header__top {
+  min-height: 258px;
+}
+
 .header__title {
   position: relative;
-  padding-top: 100px;
   z-index: 1;
 }
 
@@ -419,7 +418,7 @@ h3 {
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
     line-height: 1.6em;
-    color: $dark;
+    color: #000000;
   }
 }
 
