@@ -70,11 +70,19 @@ h3 {
 }
 
 .header {
+  padding-top: 100px;
   background-color: $light;
+
+  &.bg {
+    &::before {
+      top: 0;
+    }
+  }
 }
 
 .header__wrapper {
   position: relative;
+  margin-top: -100px;
 }
 
 .header__title {
