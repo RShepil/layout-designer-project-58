@@ -394,6 +394,7 @@ h3 {
   font-size: 13px;
   line-height: 1.6em;
   color: #000000;
+  word-spacing: -2px;
 }
 
 .footer__button {
