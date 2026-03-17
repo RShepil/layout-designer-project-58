@@ -394,9 +394,9 @@ h3 {
 }
 .footer__input::placeholder {
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
+  font-size: 13.1px;
   line-height: 1.6em;
-  color: #000000;
+  color: #757575;
 }
 
 .footer__button {
