@@ -395,6 +395,7 @@ h3 {
 .footer__input::placeholder {
   font-size: 13.2px;
   color: #757575;
+  letter-spacing: 0.1px;
 }
 
 .footer__button {
