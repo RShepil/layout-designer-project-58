@@ -410,13 +410,13 @@ h3 {
   width: 100%;
   max-width: 415px;
   height: 50px;
-  padding: 14px 15px 15px;
+  padding: 14px 15px 15px 15px;
   border: 1px solid #e3e3e3;
   border-right: none;
   box-sizing: border-box;
 
   &::placeholder {
-    font-size: 13.3px;
+    font-size: 13.2px;
     color: #757575;
   }
 }
