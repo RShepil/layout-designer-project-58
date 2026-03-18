@@ -393,7 +393,6 @@ h3 {
   box-sizing: border-box;
 }
 .footer__input::placeholder {
-  font-family: "Open Sans", sans-serif;
   font-size: 13.1px;
   color: #757575;
 }
